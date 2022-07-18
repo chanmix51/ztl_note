@@ -14,11 +14,11 @@ pub struct PermanentNote<'a> {
 }
 
 #[derive(Debug)]
-pub struct OpenMindSession {
+pub struct ZtlNoteSession {
     thinker: Thinker,
 }
 
-impl OpenMindSession {
+impl ZtlNoteSession {
     pub fn new(thinker: Thinker) -> Option<Self> {
         Some(Self { thinker })
     }

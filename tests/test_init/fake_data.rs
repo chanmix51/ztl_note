@@ -1,4 +1,4 @@
-use open_mind::{PermanentNote, Thinker};
+use ztl_note::{PermanentNote, Thinker};
 
 pub fn get_permanent_notes<'a>(nb_notes: usize, thinker: &'a Thinker) -> Vec<PermanentNote<'a>> {
     todo!()
